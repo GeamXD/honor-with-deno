@@ -1,0 +1,5 @@
+curl -fsSL https://deno.land/install.sh | sh
+touch deno.json
+deno add "jsr:@hono/hono"
+deno add 'jsr:@std/crypto' 'jsr:@std/encoding' 'jsr:@zaubrik/djwt'
+deno run generateToken.ts

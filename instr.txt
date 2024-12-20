@@ -1,3 +1,0 @@
-curl -fsSL https://deno.land/install.sh | sh
-touch deno.json
-deno add "jsr:@hono/hono"
